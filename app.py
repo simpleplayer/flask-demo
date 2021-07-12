@@ -11,5 +11,9 @@ def index():
 def world():
     return "hello world"
 
+@app.route('/town')
+def world():
+    return "hello town"
+
 if __name__ == '__main__':
     app.run(debug=True)
