@@ -12,7 +12,7 @@ def world():
     return "hello world"
 
 @app.route('/town')
-def world():
+def town():
     return "hello town"
 
 if __name__ == '__main__':
